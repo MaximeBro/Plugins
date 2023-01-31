@@ -1,0 +1,6 @@
+SpawnLobby:
+  World:
+    name: "lobby"
+    x: 0
+    y: 70
+    z: 0

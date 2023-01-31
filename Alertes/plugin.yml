@@ -1,0 +1,16 @@
+name: Alertes
+version: 1.0
+author: Pulsion
+main: fr.pulsion.alertes.Alertes
+commands:
+  alertes:
+    description: Commande menu de base qui permet de choisir des options
+    permission: alertes.use
+
+  alertes global:
+    description: Message type serveur
+    permission: alertes.global
+
+  alertes event:
+    description: Message type event
+    permission: alertes.event

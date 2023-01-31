@@ -1,0 +1,21 @@
+name: Lobby
+version: 1.0
+author: Pulsion
+main: fr.pulsion.lobby.Lobby
+api-version: 1.13
+commands:
+  lobby:
+    description: Téléporte le joueur au spawn du lobby défini
+    permission: lobby.teleport
+
+  hub:
+    description: Téléporte le joueur au spawn du lobby défini
+    permission: hub.teleport
+
+  spawn:
+    description: Téléporte le joueur au spawn du lobby défini
+    permission: spawn.teleport
+
+  setspawn:
+    description: Défini le point de spawn du lobby
+    permission: lobby.setspawn

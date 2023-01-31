@@ -1,0 +1,64 @@
+name: Utilities
+version: 1.0
+author: Pulsion
+main: fr.pulsion.utilities.Utilities
+commands:
+  gmc:
+    description: Active le gamemode creative
+    permission: utilities.gmc
+
+  gms:
+    description: Active le gamemode survival
+    permission: utilities.gms
+
+  fly:
+    description: Active le fly
+    permission: utilities.fly
+
+  god:
+    description: Active le mode dieu
+    permission: utilities.god
+
+  vanish:
+    description: Active le mode invisible
+    permission: utilities.vanish
+
+  clearmob:
+    description: Tue toutes les créatures présentes
+    permission: utilities.clearmob
+
+  clearlag:
+    description: Tue toutes les entités présentes
+    permission: utilities.clearlag
+
+  repair:
+    description: Répare l'item en main
+    permission: utilities.repair
+
+  repair all:
+    description: Répare tous les items présents dans votre inventaire
+    permission: utilities.repairall
+
+  fix:
+    description: Répare l'item en main
+    permission: utilities.fix
+
+  fix all:
+    description: Répare tous les items présents dans votre inventaire
+    permission: utilities.fixall
+
+  sun:
+    description: Clear la météo et remet le soleil
+    permission: utilities.sun
+
+  invsee:
+    description: Permet à joueur de voir l'inventaire d'un autre joueur
+    permission: utilities.invsee
+
+  nick:
+    description: renomme le joueur passé en paramètres
+    permission: utilities.nick
+
+  rename:
+    description: renomme l'item dans la main du joueur
+    permission: utilities.item.rename

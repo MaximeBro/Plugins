@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Alertes:jar">
+    <output-path>$USER_HOME$/Desktop/Serveur/plugins/</output-path>
+    <root id="archive" name="Alertes.jar">
+      <element id="module-output" name="Alertes" />
+      <element id="file-copy" path="$PROJECT_DIR$/plugin.yml" />
+    </root>
+  </artifact>
+</component>
